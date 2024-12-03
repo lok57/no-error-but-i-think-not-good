@@ -2,16 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LUXE - Premium Shopping Experience</title>
     <meta name="description" content="Your premium destination for electronics, fashion, and accessories" />
+    
+    <!-- Preconnect to external domains for faster font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" 
+      rel="stylesheet" 
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Open Graph Meta Tags (Optional for SEO and social sharing) -->
+    <meta property="og:title" content="LUXE - Premium Shopping Experience" />
+    <meta property="og:description" content="Your premium destination for electronics, fashion, and accessories" />
+    <meta property="og:image" content="path_to_image.jpg" />
+    <meta property="og:url" content="https://www.luxe.com" />
+
+    <!-- Apple Touch Icon for mobile -->
+    <link rel="apple-touch-icon" href="/apple-icon.png" />
   </head>
+  
   <body>
+    <!-- Root element for React app -->
     <div id="root"></div>
+    
+    <!-- Main TypeScript entry file, make sure the path is correct after Vite build -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
